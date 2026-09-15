@@ -1,0 +1,21 @@
+{
+  "ha_core_version": "2026.9.1",
+  "addon_version": "2026.9.1-1",
+  "upstream_image": "ghcr.io/home-assistant/home-assistant",
+  "upstream_index_digest": "sha256:612d76760b544cb40b7ba01387fdac964c59a6a550a50a4d30b4773c822d2918",
+  "platforms": {
+    "amd64": {
+      "oci_platform": "linux/amd64",
+      "manifest_digest": "sha256:31076d37e3b7dc9681b32d892aa4413fa866c9a90e5c8a50324b397dce415d17",
+      "config_digest": "sha256:3ac96161524cf5ce65fdf4922f844f4f30a55fbbdab024b8055f0483d599d413"
+    },
+    "aarch64": {
+      "oci_platform": "linux/arm64",
+      "manifest_digest": "sha256:134bdc1b5f3d32f201987966134fc6edbba0809c6d5100651b28dc653f443d39",
+      "config_digest": "sha256:e36250f0700696129173de69406935afd89f3bf5c6376b3456e13a639d170bee"
+    }
+  },
+  "verified_upstream_entrypoint": ["/init"],
+  "verified_upstream_cmd": null,
+  "notes": "These are upstream base-image identities, not the resulting Supervisor wrapper image digest. HA Core software is not rebuilt."
+}

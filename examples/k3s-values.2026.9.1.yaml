@@ -1,0 +1,19 @@
+# Test overlay for WOOWTECH/Woow_k3s_homeassistant chart 1.2.0.
+# Does not modify any existing release. Review the rendered manifests first.
+namespace:
+  name: ha-core-migration-test
+homeassistant:
+  image:
+    repository: ghcr.io/home-assistant/home-assistant
+    tag: "2026.9.1"
+    pullPolicy: IfNotPresent
+  hostNetwork: false
+  config:
+    TZ: UTC
+postgres:
+  enabled: false
+secrets:
+  create: false
+  existingSecretName: ha-core-test-env
+# The chart still unconditionally references this Secret when Postgres is off.
+# See k3s-empty-secret.yaml. Do not place real passwords in values files.
