@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "repository": "WOOWTECH/Woow_haos_ha_core",
+  "components": {
+    "woow_ha_core": {
+      "id": "woow_ha_core",
+      "name": "Home Assistant Core (official image)",
+      "version": "2026.9.1-1",
+      "repository": "WOOWTECH/Woow_haos_ha_core",
+      "source_sha": "521c076ae13267454485b0575dd855c98904a699",
+      "source_path": "ha_core",
+      "config_file": "config.yaml",
+      "config_sha256": "sha256:d1282943556a6f725e977e9267e3351343ea25def58a6cf58294fa98936c2dfa",
+      "archive_sha256": "sha256:4a93f4c548d9e7e2cb5ee394f910b91f0f3a81719e766662be73830a854d0926",
+      "context_fingerprint": "sha256:9813552f8ed324d7beb09d653bf073f3e4358cf710659334d0a50a7522953cd2",
+      "material_fingerprint": "sha256:776f6e9ed2fe69c832982b11a7a3187dc917a05beb22b14fd0e944e365d322d1",
+      "architectures": [
+        "amd64",
+        "aarch64"
+      ],
+      "config": {
+        "name": "Home Assistant Core (official image)",
+        "slug": "woow_ha_core",
+        "description": "Independent official Home Assistant Core 2026.9.1; no rebranding or seeded configuration.",
+        "version": "2026.9.1-1",
+        "url": "https://github.com/WOOWTECH/Woow_haos_ha_core",
+        "arch": [
+          "amd64",
+          "aarch64"
+        ],
+        "startup": "application",
+        "boot": "manual",
+        "init": false,
+        "stage": "experimental",
+        "timeout": 300,
+        "backup": "cold",
+        "host_network": false,
+        "hassio_api": false,
+        "homeassistant_api": false,
+        "ingress": false,
+        "ports": {
+          "8123/tcp": null
+        },
+        "ports_description": {
+          "8123/tcp": "Independent HA Core UI/API. Choose an unused host port (e.g. 8129)."
+        },
+        "webui": "http://[HOST]:[PORT:8123]/",
+        "map": [
+          "addon_config:rw"
+        ],
+        "options": {},
+        "schema": {}
+      },
+      "source_build_supported": true,
+      "images": {},
+      "delivery": "local-source-build",
+      "validation": "manifest+source-context+configured-CI (runtime build not certified)",
+      "publisher_run_id": "37410049318",
+      "channel": "stable"
+    }
+  }
+}
