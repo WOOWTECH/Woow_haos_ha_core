@@ -11,8 +11,7 @@ release mechanism is described in the Woow_HA_App_Store README (section
    that version to the WOOW App Store. It must pass every required check; the
    checks are the approval, there is no human review step. Every PR runs
    `Upgrade comparison / compare` (pipeline #89); treat a failure as blocking.
-   It compares each addon whose version the PR changes with the version on the
-   PR base: the Store ships this repository's `main`, which has no Stable
+   It compares each addon whose version the PR changes with the latest Stable
    Release. A PR that changes no version passes it in seconds. The result is
    in the job summary.
 3. **Breaking changes must be declared in `upgrade-notes.yaml`** next to the
