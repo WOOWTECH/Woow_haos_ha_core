@@ -7,11 +7,11 @@
       "name": "Home Assistant Core (official image)",
       "version": "2026.9.1-1",
       "repository": "WOOWTECH/Woow_haos_ha_core",
-      "source_sha": "521c076ae13267454485b0575dd855c98904a699",
+      "source_sha": "141d7fb51c0a03aafd9c6185c49aa2bb0e814354",
       "source_path": "ha_core",
       "config_file": "config.yaml",
       "config_sha256": "sha256:d1282943556a6f725e977e9267e3351343ea25def58a6cf58294fa98936c2dfa",
-      "archive_sha256": "sha256:4a93f4c548d9e7e2cb5ee394f910b91f0f3a81719e766662be73830a854d0926",
+      "archive_sha256": "sha256:ca137aba14b56d136522b1f5b60d4d75c6d645ab797ac2e4f92c5e7a3416072a",
       "context_fingerprint": "sha256:9813552f8ed324d7beb09d653bf073f3e4358cf710659334d0a50a7522953cd2",
       "material_fingerprint": "sha256:776f6e9ed2fe69c832982b11a7a3187dc917a05beb22b14fd0e944e365d322d1",
       "architectures": [
@@ -55,7 +55,7 @@
       "images": {},
       "delivery": "local-source-build",
       "validation": "manifest+source-context+configured-CI (runtime build not certified)",
-      "publisher_run_id": "37410049318",
+      "publisher_run_id": "42005070401",
       "channel": "stable"
     }
   }
