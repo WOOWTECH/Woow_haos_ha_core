@@ -1,6 +1,6 @@
 {
   "ha_core_version": "2026.9.1",
-  "addon_version": "2026.9.1-1",
+  "addon_version": "2026.9.1-2",
   "upstream_image": "ghcr.io/home-assistant/home-assistant",
   "upstream_index_digest": "sha256:612d76760b544cb40b7ba01387fdac964c59a6a550a50a4d30b4773c822d2918",
   "platforms": {

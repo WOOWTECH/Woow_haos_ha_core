@@ -1,7 +1,7 @@
 name: "Home Assistant Core (official image)"
 slug: "woow_ha_core"
 description: "Independent official Home Assistant Core 2026.9.1; no rebranding or seeded configuration."
-version: "2026.9.1-1"
+version: "2026.9.1-2"
 url: "https://github.com/WOOWTECH/Woow_haos_ha_core"
 arch:
   - amd64
