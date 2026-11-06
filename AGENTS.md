@@ -34,6 +34,7 @@ release mechanism is described in the Woow_HA_App_Store README (section
    addon's `config.yaml` (here `ha_core/upgrade-notes.yaml`). Create the file
    only when the upgrade comparison asks for it; copy `change` and `key` from
    its report and write the migration path. The addons here are built on the
-   device, so the vulnerability comparison does not run for them yet (pipeline
-   #90). Rules, change names and the file format: the Woow_HA_App_Store
-   README, section "升版比對與 `upgrade-notes.yaml`".
+   device: the vulnerability comparison runs on the images the Store rebuilds
+   for the upgrade comparison (pipeline #146). Rules, change names and the
+   file format: the Woow_HA_App_Store README, section "升版比對與
+   `upgrade-notes.yaml`".
